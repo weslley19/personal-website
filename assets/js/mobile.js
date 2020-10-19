@@ -1,7 +1,7 @@
 // Menu mobile
 
 const asideMobile = document.querySelector('.main-content-aside-mobile');
-const aside = document.querySelector('.mobile');
+const aside = document.querySelector('.mobile-menu');
 const closIcon = document.querySelector('.main-aside-clos-icon');
 
 asideMobile.addEventListener('click', () => {

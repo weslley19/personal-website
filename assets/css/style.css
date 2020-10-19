@@ -98,7 +98,7 @@
 }
 
 @media (max-width: 755px) {
-    .mobile {
+    .mobile-menu {
         min-width: 100vw;
         z-index: 1;
     }
