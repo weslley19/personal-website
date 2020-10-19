@@ -1,0 +1,105 @@
+/* File style main */
+
+/* hello world */
+/* Largura máximo do conteudo menos o aside */
+.main-content {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 20.5rem;
+}
+
+.main-hello-world-apresention-title {
+    text-align: center;
+    color: #fff;
+    margin: 100px 0 50px 0;
+}
+
+.main-hello-world-apresention p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.background-border {
+    border-left: 2px solid #46C9EE;
+    background-color: #202024;
+    padding: 20px 20px 1px 20px;
+    margin: 20px 0;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.background-border:hover {
+    background: rgb(41, 41, 46);
+    cursor: pointer;
+}
+
+/* about, education, skills, projects */
+.main-content-about-me-title,
+.main-content-education-content-title,
+.main-content-skills-details-title,
+.main-content-projects-details-title,
+.main-content-contact-details-title {
+    color: #fff;
+}
+
+.main-content-about-me p,
+.main-content-education-content p,
+.main-content-skills-details p,
+.main-content-projects-details p,
+.main-content-contact-details p {
+    margin: 20px 0;
+}
+
+.main-content-skills-details .main-content-skills-details-technologies-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-content-skills-details .main-content-skills-details-technologies-all img {
+    width: 45px;
+    margin: 0 15px 30px 15px;
+}
+
+
+/* footer */
+.main-footer-copyright {
+    width: 100%;
+    height: 40px;
+    background-color: #202024;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7em;
+}
+
+
+
+/* Aside mobile */
+.main-aside-clos-icon {
+    display: none;
+}
+
+.main-content-aside-mobile img,
+.main-aside-clos-icon img {
+    width: 40px;
+    margin-top: 10px;
+}
+@media (min-width: 755px) {
+    .main-content-aside-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 755px) {
+    .mobile {
+        min-width: 100vw;
+        z-index: 1;
+    }
+}
