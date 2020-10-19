@@ -96,6 +96,7 @@
 @media (max-width: 380px) and (max-height: 660px) {
     aside {
         overflow-y: auto;
+        height: 100vh;
     }
 
     .main-aside-social-nav-networks {
