@@ -10,3 +10,7 @@ a {
     outline: none;
     text-decoration: none;
 }
+
+li {
+    list-style: none;
+}
